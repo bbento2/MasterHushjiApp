@@ -1,0 +1,32 @@
+<resources> <!--Name String-->
+    <string name="app_name">MasterHUshjiLogin</string>
+    <string name="masterhushji">MasterHushji</string>
+    <string name="explore_your_dream_food" />
+    <string name="sign_in" />
+    <string-array name="food">
+        <item>Steamed Banana Cake</item> <!--ชื่อString-->
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bannanacake"> <!--เนื้อหาสูตรทำเค้กกล้วยหอม-->
+       Ingredients : \n
+        1. 200 grams of ripe banana \n
+        2. Cake flour 170 grams \n
+        3. 1/2 teaspoon salt \n
+        4. Baking soda 1/2 teaspoon\n
+        5. Baking powder 1+1/2 teaspoon \n
+        6.Eggs (size 0) 2 eggs \n
+        7. 1 teaspoon vanilla scent \n
+        8. Sugar 80 grams \n
+        9.Oil 80 grams \n
+        10. Fresh milk 40 grams \n
+        11.Natural yoghurt 50 g.\n
+        12.Eggs (size 0) 2 eggs\n\n
+
+        Cooking Method:\n \n
+        1.	Mash the ripe bananas into a pulp. And sift cake flour, baking powder, salt and baking soda 1 time and set aside.\n
+        2.	 Put eggs, vanilla extract, oil, milk, yogurt into the bowl of banana mixture, stir well.\n
+        3.	Sift the sugar for baking and the prepared dry ingredients one more time.\n
+        4.	Pour the wet ingredients into the bowl in which the dry ingredients have been sifted. Mix well and let the dough rest for 15 minutes to let the baking powder do its work.\n
+        5.	Use medium heat for steaming. It takes about 20 minutes.\n
+    </string>
+</resources>

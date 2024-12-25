@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <!--ช่องสำหรับให้พิมพ์ Name food-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_margin="20dp"
+            android:hint="Name of food"
+            android:paddingTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--ช่องสำหรับให้พิมพ์ ส่วนผสม-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_margin="20dp"
+            android:hint="Ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--ช่องสำหรับให้พิมพ์ วิธีทำ-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_margin="20dp"
+            android:hint="How to cook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--สร้างปุ่ม Submit-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="160dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:background="@color/Light_purple"
+                android:text="Submit"
+                android:textColor="@color/white" />
+
+    </LinearLayout>
+</RelativeLayout>
